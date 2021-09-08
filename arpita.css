@@ -1,0 +1,431 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 0.9px;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: lightgrey;
+}
+#logo2 {
+  height: 40px;
+}
+.section1 {
+  background-image: url("./icon5/headway-5QgIuuBxKwM-unsplash\ \(1\).jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  animation: slider 35s infinite;
+}
+@keyframes slider {
+  25% {
+    background-image: linear-gradient(to right, white black);
+    background-image: url("./icon5/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
+    /* background-image: url('./icon5/charles-deluvio-Lks7vei-eAg-unsplash.jpg'); */
+  }
+  50% {
+    /* background-image: url('./icon5/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg'); */
+    background-image: linear-gradient(to right, white black);
+    background-image: url("./icon5/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg");
+  }
+  75% {
+    background-image: url("./icon5/scott-graham-OQMZwNd3ThU-unsplash\ \(1\).jpg");
+  }
+}
+.parent {
+  display: flex;
+}
+.company_name {
+  background: -webkit-linear-gradient(red, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contan {
+  text-align: center;
+}
+.nav_list {
+  list-style: none;
+  display: flex;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_list > li > a {
+  color: white;
+  text-decoration: none;
+  padding-right: 40px;
+  font-size: 26px;
+  font-weight: 500;
+}
+li > a:hover {
+  color: orange;
+}
+
+#head1 {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5rem;
+}
+#head2 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.2rem;
+  color: tomato;
+}
+#head3 {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+  color: white;
+}
+.image_part img {
+  height: 310px;
+  width: 500px;
+  border-radius: 1rem;
+  padding-left: 6rem;
+}
+.ABOUT {
+  display: flex;
+}
+#hea {
+  font-size: 2rem;
+}
+#contain {
+  padding: 0 10rem;
+}
+.INSURANCE {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Car1,
+.Car2,
+.Car3,
+.Car4,
+.Car5,
+.Car6 {
+  border-radius: 1rem;
+  box-shadow: 3px 3px 18px black;
+  height: 270px;
+  width: 300px;
+  margin: 3rem;
+  background-image: linear-gradient(to left, white, lightblue);
+}
+.carimg1,
+.carimg2,
+.carimg3,
+.carimg4,
+.carimg5,
+.carimg6 {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-content {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.location-marker svg {
+  height: 40px;
+  color: red;
+}
+.location-marker {
+  margin-top: 0.6rem;
+}
+
+.symbol > a {
+  height: 2rem;
+}
+
+footer {
+  background-color: black;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  color: white;
+}
+h4 {
+  font-size: 30px;
+}
+#insu {
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 3px;
+}
+#location {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+#abo {
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 3px;
+  margin-top: 1rem;
+}
+@media only screen and (max-width: 320px) {
+  .nav_list ul li {
+    display: block;
+  }
+  #head1 {
+    width: 65%;
+    top: 40%;
+  }
+  #head2 {
+    width: 78%;
+    top: 50%;
+  }
+  #abo {
+    font-size: 32px;
+  }
+  .company_name {
+    width: 60%;
+    font-size: rem;
+    line-height: 30px;
+  }
+
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+  .image_part img {
+    padding-left: 0;
+    padding: 0 0.5rem;
+  }
+  .section1 {
+    width: 100%;
+    background-size: cover;
+  }
+  .img {
+    display: none;
+  }
+  .nav_list li {
+    display: none;
+  }
+  #head1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #head2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #head3 {
+    top: 80%;
+    font-size: 1rem;
+    width: 60%;
+  }
+  .ABOUT {
+    flex-direction: column;
+  }
+  .image_part img {
+    margin-top: -2rem;
+    width: 320px;
+    height: 220px;
+  }
+
+  #contain {
+    padding: 0.5rem 1rem;
+  }
+
+  #insu {
+    margin-top: -5rem;
+    font-size: 32px;
+  }
+  #ifra {
+    margin-top: -2rem;
+    width: 100vw;
+    height: 50vh;
+    padding: 0 0.6rem;
+  }
+  #location {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+  .INSURANCE {
+    flex-direction: column;
+  }
+  .Car1,
+  .Car2,
+  .Car3,
+  .Car4,
+  .Car5,
+  .Car6 {
+    width: 260px;
+    height: 235px;
+    margin: 1.8rem;
+  }
+  footer {
+    flex-direction: column;
+  }
+  #logo {
+    font-size: 50px;
+  }
+  .Comapany-content > #logo {
+    display: none;
+  }
+  #hand1 {
+    display: none;
+  }
+  .quick_links {
+    margin-top: -15rem;
+  }
+  .image > img {
+    height: 32px;
+  }
+  .image2 > img {
+    height: 32px;
+  }
+  .image3 > img {
+    height: 32px;
+  }
+  .image4 > img {
+    height: 32px;
+  }
+  #copyr {
+    position: absolute;
+    /* padding-top:9rem; */
+  }
+  #copyr > h2 {
+    margin-top: 12rem;
+    font-size: 18px;
+    text-align: center;
+  }
+  .Contact-us > h1 {
+    text-align: center;
+    margin-top: -15rem;
+    /* padding-top: 12px; */
+  }
+  .address-content > #num {
+    padding-top: 10px;
+  }
+  .address-content > #ema {
+    padding-top: 10px;
+  }
+  .Mobile_No > img {
+    margin-top: 10px;
+  }
+  .Gmail-png > img {
+    margin-top: 10px;
+  }
+  footer {
+    height: 120vh;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav_list {
+    display: none;
+  }
+  #head1 {
+    font-size: 1rem;
+    display: none;
+  }
+  #head2 {
+    font-size: 2.5rem;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 100%;
+  }
+  #head3 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 1.2rem;
+    width: 70%;
+  }
+  .company_name h1 {
+    font-size: 1.2rem;
+  }
+  .parent {
+    display: flex;
+    align-items: center;
+  }
+  .ABOUT {
+    flex-direction: column;
+
+    width: 60vh;
+  }
+  .image_part img {
+    padding-left: 3rem;
+    width: 70vh;
+  }
+  .image_part {
+    border: 2px solid black;
+  }
+  #abo {
+    font-size: 1rem;
+  }
+  #contain {
+    font-size: 1.5rem;
+    width: 70vh;
+    border: 2px solid black;
+  }
+  #hea {
+    width: 40vh;
+    font-size: 1.5rem;
+  }
+  #location {
+    font-size: 1.7rem;
+  }
+  .flex-content {
+    display: flex;
+    align-items: center;
+  }
+  iframe {
+    width: 70vh;
+  }
+  svg {
+    width: 2rem;
+  }
+  footer {
+    flex-direction: column;
+  }
+  #hand1 {
+    width: 4rem;
+    height: 4rem;
+  }
+  .logos {
+    font-size: 20px;
+    display: none;
+  }
+  .Company {
+    font-size: 1rem;
+  }
+  .quick_links h1{
+    font-size: 1.7rem;
+  }
+  .Contact-us{
+    text-align: center;
+  }
+}

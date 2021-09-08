@@ -1,0 +1,31 @@
+.container{
+display: flex;
+
+
+}
+.div1{
+    border: 2px solid black;
+    background-color: blueviolet;
+    color: wheat;
+    font-size: 1.5rem;
+    font-style: italic;
+    flex-shrink: 1;
+    margin: 0 1rem;
+    padding:0 2rem;
+}
+.div2{
+    border: 2px solid black;
+    background-color:teal;
+    color: wheat;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 0 1rem;
+}
+.div3{
+    border: 2px solid black;
+    background-color:turquoise;
+    color: wheat;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 0 1rem;
+}

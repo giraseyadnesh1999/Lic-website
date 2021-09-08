@@ -1,0 +1,50 @@
+*{
+	margin:0%;
+	padding: 0%;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+.topnav{
+padding-bottom:5px;
+ }	
+.topnav a{
+color:#f2f2f2;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-size:20px;
+}
+.topnav a:hover{
+	background-color:#ddd;
+	color:black;
+}	
+.topnav a.active{
+	background-color:#04AA6D;
+	color:white;
+}
+	
+*{
+ margin:0;l
+ padding:0;
+}
+
+
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+	height:500px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("pexels-anthony-shkraba-5816300.jpg");
+  min-height: 70;
+}
+
+.menu {
+  display: none;
+}
